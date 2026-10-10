@@ -26,7 +26,7 @@
 
     <main>
         <section class="contact-info">
-            <h1>Contact Us</h1>
+            <h1>Contact Blue River Rafting</h1>
             <div class="contact-details">
                 <h2>Blue River Rafting</h2>
                 <p>123 River Canyon Road, Salmon, ID 83467</p>
@@ -54,18 +54,19 @@
                     <fieldset>
                         <legend>Purpose of Message</legend>
 
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general"
+                              required>
                             General Inquiry
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
                             Reservation Question
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
+                        <label for="suggestion">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
                             Website Suggestion
                         </label>
                     </fieldset>
@@ -73,8 +74,8 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="6"></textarea>
 
-                    <label>
-                        <input type="checkbox" name="newsletter">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
                         Please subscribe me to the monthly newsletter
                     </label>
 
